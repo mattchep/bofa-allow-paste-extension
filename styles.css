@@ -1,3 +1,15 @@
 #make-transfer-fields #paymentAmount {
-  background: yellow !important;
+  background-image: linear-gradient(to right, red,orange,#d4d40c,green,blue,indigo,violet) !important;
+  color: white !important;
+  border-radius: 15px;
+}
+
+.transfer-parent::before {
+  content: "Now allowing paste!!1!";
+  position: absolute;
+  width: 100%;
+  text-align: right;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
 }

@@ -6,6 +6,9 @@ function omfg_bofa_stopit() {
       event.stopPropagation();
   }, true);
 
+  const elemAmountParent = document.getElementById('paymentAmount').parentNode;
+  elemAmountParent.classList.add("transfer-parent");
+
 }
 
 setTimeout(function () {
