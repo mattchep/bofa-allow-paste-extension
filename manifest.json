@@ -3,7 +3,7 @@
 
   "name": "Matts BofA Paste Plugin",
   "description": "This extension removes the paste handler on BofA that blocks you from pasting a transfer amount. Don't stop users from pasting, honestly.",
-  "version": "1.0",
+  "version": "2.0",
   "permissions": [
     "webRequest",
     "tabs",
